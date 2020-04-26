@@ -296,11 +296,13 @@ header{
    
 }
 .grid_cards .item:nth-child(6):hover{
-    background-image: url(./images/Gradient.png);     
+    background-image: url(./images/Gradient.png); 
+    transition: 1s;    
 }
 .grid_cards .item:nth-child(6):hover .effect{  
     display: block;  
     opacity: 1;
+    transition: 2s;
 }
 
 .container4 h2{
@@ -354,7 +356,7 @@ header{
 }
 .services .serv_item p{
     font-size: 15px;
-    font-family: 'Roboto';    
+    font-family: 'Roboto', sans-serif;    
     color: #999999;
     padding-right: 14px;
     margin-bottom: 0;
